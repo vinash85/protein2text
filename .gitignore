@@ -1,0 +1,126 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+*.json
+*.jsonl
+
+# Data
+!**/alpaca-data-conversation.json
+
+# Editor
+.idea
+*.swp
+
+# Other
+.DS_Store
+wandb
+output
+serve_sequences
+
+articles/*
+
+checkpoints
+ckpts*
+
+.ipynb_checkpoints
+*.ipynb
+
+# DevContainer
+!.devcontainer/*
+
+# Demo
+serve_images/
+
+playground/data/*
+
+playground/data/coco2014_val_qa_eval/*
+
+playground/data/LLaVA-Pretrain/*
+
+playground/data/protein_data_with_amino.json
+
+playground/data/protein_data/*
+
+playground/data/protein_data/*
+
+output.txt
+output_old.txt
+
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+*.json
+*.jsonl
+
+# Data
+!**/alpaca-data-conversation.json
+
+# Editor
+.idea
+*.swp
+
+# Other
+.DS_Store
+wandb
+output
+
+articles
+
+checkpoints
+ckpts*
+
+.ipynb_checkpoints
+*.ipynb
+
+# DevContainer
+!.devcontainer/*
+
+# Demo
+serve_images/
+
+
+playground/data/coco2014_val_qa_eval/*
+
+playground/data/LLaVA-Pretrain/*
+
+playground/data/protein_data_with_amino.json
+
+playground/data/protein_data/*
+
+playground/data/protein_data/*
+
+output.txt
+output_old.txt
+
+controller.log
+gradio_web_server.log.*
+gradio_web_server.*
+controller.log.*
+model_worker*
+
+flamingo_test_case.ipynb
+
+packages_before.txt
+requirements_llava_macaulay.txt
+testing_encoders.ipynb
+run_llama3.py
+llava_protein_requirements.txt
+*-conv.json
+
+llava/eval/table/*
+
+requirements_llava_macaulay.txt
+packages_before.txt
+output_worker.txt
